@@ -34,6 +34,7 @@ TEST_CASE("4: Guild Composition += Logic", "[composition]")
     g += &h1;
     REQUIRE(g.calculateTotalGuildPower() == 70);
 }
+
 // Testing Const Correctness
 TEST_CASE("5: Const Correctness Check", "[basic]")
 {
